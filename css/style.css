@@ -99,6 +99,7 @@ header {
 .title img {
     width: 220px;
     margin-right: 20px;
+    object-fit: cover;
 }
 
 .title img:hover {
@@ -133,6 +134,42 @@ header {
 .title .main-tilte h2:hover,
 .title .main-tilte span:hover {
     text-shadow: 1px 1px 1px var(--main-color);
+}
+
+.ml3 {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.ml2 {
+    font-weight: 900;
+    font-size: 1.5em;
+}
+
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.ml7 {
+    position: relative;
+    font-weight: 900;
+    font-size: 3.7em;
+}
+
+.ml7 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml7 .letter {
+    transform-origin: 0 100%;
+    display: inline-block;
+    line-height: 1em;
 }
 
 .title .main-tilte ul {}
